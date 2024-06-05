@@ -1,0 +1,9 @@
+CRITICAL - 2024-04-27 09:04:44 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\lab11web\assets\code\lab11_ci\ci4-prak14\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\lab11web\assets\code\lab11_ci\ci4-prak14\app\Controllers\Artikel.php(51): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\lab11web\assets\code\lab11_ci\ci4-prak14\system\CodeIgniter.php(832): App\Controllers\Artikel->add()
+#3 C:\xampp\htdocs\lab11web\assets\code\lab11_ci\ci4-prak14\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#4 C:\xampp\htdocs\lab11web\assets\code\lab11_ci\ci4-prak14\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lab11web\assets\code\lab11_ci\ci4-prak14\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\lab11web\assets\code\lab11_ci\ci4-prak14\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

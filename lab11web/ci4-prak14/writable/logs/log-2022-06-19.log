@@ -1,0 +1,17 @@
+CRITICAL - 2022-06-19 03:35:48 --> Unclosed '{' on line 15
+#0 C:\xampp\htdocs\lab11_ci\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\lab11_ci\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 C:\xampp\htdocs\lab11_ci\ci4\system\Config\Factories.php(136): class_exists('Config\\Filters')
+#4 C:\xampp\htdocs\lab11_ci\ci4\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#5 C:\xampp\htdocs\lab11_ci\ci4\system\Common.php(198): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#6 C:\xampp\htdocs\lab11_ci\ci4\system\Config\Services.php(258): config('Filters')
+#7 C:\xampp\htdocs\lab11_ci\ci4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters(NULL, false)
+#8 C:\xampp\htdocs\lab11_ci\ci4\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#9 C:\xampp\htdocs\lab11_ci\ci4\system\Config\Services.php(255): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#10 C:\xampp\htdocs\lab11_ci\ci4\system\Config\BaseService.php(248): CodeIgniter\Config\Services::filters()
+#11 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(373): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#12 C:\xampp\htdocs\lab11_ci\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\lab11_ci\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\lab11_ci\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#15 {main}
